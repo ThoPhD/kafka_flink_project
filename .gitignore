@@ -1,0 +1,15 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+/.idea/*
+__pycache__/*
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info
+*.egg
+*.whl
+*.zip
+*.tar.gz
+*.jar

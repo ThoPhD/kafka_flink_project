@@ -1,0 +1,8 @@
+kafka:
+  bootstrap_servers: localhost:9092
+  click_topic: clicks
+  checkout_topic: checkouts
+
+clickhouse:
+  jdbc_url: jdbc:clickhouse://localhost:8123/flinkuser
+  table: attributed_checkouts
