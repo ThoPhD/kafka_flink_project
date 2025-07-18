@@ -13,3 +13,7 @@ __pycache__/*
 *.zip
 *.tar.gz
 *.jar
+/venv/
+/jars/
+/.mypy_cache/
+.DS_Store

@@ -1,8 +1,15 @@
 kafka:
-  bootstrap_servers: localhost:9092
+  bootstrap_servers: kafka:9092
   click_topic: clicks
   checkout_topic: checkouts
 
 clickhouse:
   jdbc_url: jdbc:clickhouse://localhost:8123/flinkuser
+  schema: commerce
   table: attributed_checkouts
+
+users:
+  jdbc_url: jdbc:clickhouse://localhost:8123/flinkuser
+  schema: commerce
+  table: users
+  driver: com.clickhouse.jdbc.ClickHouseDriver
